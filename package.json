@@ -1,0 +1,32 @@
+{
+  "name": "coding-challenge",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "vitest ./src/tests",
+    "bench": "vitest bench ./src/bench",
+    "format": "prettier --write .",
+    "test:co": "vitest ./src/tests/countOccurrences.spec.ts",
+    "test:sd": "vitest ./src/tests/symmetricDifference.spec.ts",
+    "test:fd": "vitest ./src/tests/findDuplicates.spec.ts",
+    "test:fdp": "vitest ./src/tests/findDuplicatePositions.spec.ts",
+    "bench:co": "vitest bench ./src/bench/countOccurences.bench.ts",
+    "bench:sd": "vitest bench ./src/bench/symmetricDifference.bench.ts",
+    "bench:fd": "vitest bench ./src/bench/findDuplicates.bench.ts",
+    "bench:fdp": "vitest bench ./src/bench/findDuplicatePositions.bench.ts",
+    "start:co": "tsx watch src/run.ts countOccurrences",
+    "start:sd": "tsx watch src/run.ts symmetricDifference",
+    "start:fd": "tsx watch src/run.ts findDuplicates",
+    "start:fdp": "tsx watch src/run.ts findDuplicatePositions"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "jest-extended": "^4.0.2",
+    "prettier": "^3.5.3",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.2",
+    "vitest": "^3.1.2"
+  }
+}
