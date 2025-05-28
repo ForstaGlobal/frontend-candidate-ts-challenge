@@ -33,12 +33,12 @@ Pick any **two** of the following to implement:
 
 1. ```ts
    /**
-    * Counts the number of times a single character appears in a string (case-insensitive).
+    * Counts the number of times a subString appears in a string (case-insensitive).
     * @param str The string to check
-    * @param char The character to count
-    * @returns The number of times the character appears in the string
+    * @param subString The subString to count
+    * @returns The number of times the subString appears in the string
     */
-   export function countOccurrences(str: string, char: string): number {}
+   export function countOccurrences(str: string, subString: string): number {}
    ```
 
 2. ```ts

@@ -2,42 +2,42 @@
   "countOccurrences": [
     {
       "str": "",
-      "char": "",
+      "subString": "",
       "result": 0
     },
     {
       "str": "",
-      "char": "a",
+      "subString": "a",
       "result": 0
     },
     {
       "str": "hello world",
-      "char": "",
+      "subString": "",
       "result": 0
     },
     {
       "str": "hello world",
-      "char": "x",
+      "subString": "x",
       "result": 0
     },
     {
       "str": "hello world",
-      "char": " ",
+      "subString": " ",
       "result": 1
     },
     {
       "str": "hello, world",
-      "char": ",",
+      "subString": ",",
       "result": 1
     },
     {
       "str": "hello Obi",
-      "char": "o",
+      "subString": "o",
       "result": 2
     },
     {
       "str": "coat cocoa Coke acapulco coop",
-      "char": "co",
+      "subString": "co",
       "result": 6
     }
   ],

@@ -3,10 +3,10 @@ import { countOccurrences } from '../functions/countOccurrences';
 import testData from '../testData.json';
 
 describe('countOccurrences', () => {
-  testData.countOccurrences.forEach(({ str, char, result }, idx) => {
+  testData.countOccurrences.forEach(({ str, subString, result }, idx) => {
     describe(`case #${idx + 1}`, () => {
-      it(`countOccurrences("${str}", "${char}") → ${result}`, () => {
-        expect(countOccurrences(str, char)).toBe(result);
+      it(`countOccurrences("${str}", "${subString}") → ${result}`, () => {
+        expect(countOccurrences(str, subString)).toBe(result);
       });
     });
   });

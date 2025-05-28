@@ -32,10 +32,10 @@ const printFooter = (isLast: boolean) => {
 switch (functionToCall) {
   case 'countOccurrences':
     printHeader(countOccurrences.name);
-    testArguments.countOccurrences.forEach(({ str, char, result }, index) => {
-      console.log(`case: #${index + 1} - countOccurrences("${str}", "${char}")\n`);
+    testArguments.countOccurrences.forEach(({ str, subString, result }, index) => {
+      console.log(`case: #${index + 1} - countOccurrences("${str}", "${subString}")\n`);
       console.log('\nLogs:');
-      const actual = countOccurrences(str, char);
+      const actual = countOccurrences(str, subString);
       console.log('\n');
       console.log('Actual:', actual);
       console.log('Expected:', result);
