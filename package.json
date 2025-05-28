@@ -21,12 +21,12 @@
     "start:fdp": "tsx watch src/run.ts findDuplicatePositions"
   },
   "devDependencies": {
-    "@types/node": "^22.14.1",
-    "jest-extended": "^4.0.2",
+    "@types/node": "^22.15.23",
+    "jest-extended": "^5.0.3",
     "prettier": "^3.5.3",
-    "tsx": "^4.19.3",
+    "tsx": "^4.19.4",
     "typescript": "^5.8.3",
-    "vite": "^6.3.2",
-    "vitest": "^3.1.2"
+    "vite": "^6.3.5",
+    "vitest": "^3.1.4"
   }
 }

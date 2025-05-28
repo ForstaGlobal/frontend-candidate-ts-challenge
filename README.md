@@ -61,13 +61,13 @@ Pick any **two** of the following to implement:
 
 4. ```ts
    /**
-    * Computes the symmetric difference of two arrays:
-    * i.e. all values that appear in exactly one of the arrays.
-    * @param a First array
-    * @param b Second array
-    * @returns New array of unique values present in one argument but not both
+    * Computes the symmetric difference of two arrays.
+    * Returns all elements that appear in exactly one of the two arrays (but not in both).
+    * @param arrayOne First array
+    * @param arrayTwo Second array
+    * @returns New array of elements that appear in exactly one of the two arrays (but not in both).
     */
-   export function symmetricDifference(a: number[], b: number[]): number[] {}
+   export function symmetricDifference(arrayOne: number[], arrayTwo: number[]): number[] {}
    ```
 
 ---

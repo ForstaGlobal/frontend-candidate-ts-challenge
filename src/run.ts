@@ -44,10 +44,10 @@ switch (functionToCall) {
     break;
   case 'symmetricDifference':
     printHeader(symmetricDifference.name);
-    testArguments.symmetricDifference.forEach(({ a, b, result }, index) => {
-      console.log(`case: #${index + 1} - symmetricDifference(${objLog(a)}, ${objLog(b)})\n`);
+    testArguments.symmetricDifference.forEach(({ arrayOne, arrayTwo, result }, index) => {
+      console.log(`case: #${index + 1} - symmetricDifference(${objLog(arrayOne)}, ${objLog(arrayTwo)})\n`);
       console.log('\nLogs:');
-      const actual = symmetricDifference(a, b);
+      const actual = symmetricDifference(arrayOne, arrayTwo);
       console.log('\n');
       console.log('Actual:', objLog(actual));
       console.log('Expected:', objLog(result));

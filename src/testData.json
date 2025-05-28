@@ -43,28 +43,28 @@
   ],
   "symmetricDifference": [
     {
-      "a": [],
-      "b": [],
+      "arrayOne": [],
+      "arrayTwo": [],
       "result": []
     },
     {
-      "a": [],
-      "b": [1, 2],
+      "arrayOne": [],
+      "arrayTwo": [1, 2],
       "result": [1, 2]
     },
     {
-      "a": [1, 2, 3],
-      "b": [2, 3, 4],
+      "arrayOne": [1, 2, 3],
+      "arrayTwo": [2, 3, 4],
       "result": [1, 4]
     },
     {
-      "a": [-1, 2, 0, 5, 1],
-      "b": [1, 2, 3],
+      "arrayOne": [-1, 2, 0, 5, 1],
+      "arrayTwo": [1, 2, 3],
       "result": [-1, 0, 3, 5]
     },
     {
-      "a": [1, 5, 4, 3, 3, 2, 1, 5, 4],
-      "b": [2, 2, 3],
+      "arrayOne": [1, 5, 4, 3, 3, 2, 1, 5, 4],
+      "arrayTwo": [2, 2, 3],
       "result": [1, 5, 4]
     }
   ],
